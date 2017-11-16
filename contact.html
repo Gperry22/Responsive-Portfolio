@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Basic Portfolio</title>
+  <link rel="stylesheet" type="text/css " href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css " href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Beginning of main Container that wraps the code. -->
+  <div id="containermain">
+    <!-- Beginning of container1 that is inside containermain and wraps entire code except
+          footer.       -->
+    <div class="container1">
+      <!-- Main navigation menu that will be reused 3 times -->
+      <div class="nav clearfix">
+        <nav>
+          <h1>Gabe Perry</h1>
+          <p><a href="index.html">About Me</a> <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a></p>
+        </nav>
+      </div>
+      <!-- Beginning of container2   -->
+      <!-- Second container still in main conatain but will be used for About me, contact
+        and Portfolio. -->
+      <div class="container2 clearfix">
+        <div class="aboutme">
+          <h1>Contact</h1>
+        </div>
+        <div class="contact_boxes">
+          <p>Name</p>
+          <input type="text" name="name" placeholder="John Smith" maxlength="50">
+          <p>Email</p>
+          <!-- Input instead of Text area for email-->
+          <input type="text" name="email" placeholder="example@gmail.com" maxlength="50">
+          <!-- Text area instead of input for contact message-->
+          <p>Message</p>
+          <textarea name="message" rows="10" cols="75" placeholder="Please enter your message."></textarea>
+          <div class="submit_box">
+            <p>Submit</p>
+          </div>
+        </div>
+      </div>
+      <!-- End of container2 -->
+      <!-- Beginning of container3       -->
+      <!-- Third container used. Seperate of container 2 but inside of container.  Used for contact
+          icons. Icons open in Seperate pages.  Box stays the same and will be reused 3x.     -->
+      <div class="container3 clearfix">
+        <div class="connectweme">
+          <h1>Connect</h1>
+        </div>
+        <div class="connect_icons">
+          <a href="https://github.com/Gperry22" target="_blank">
+            <img src="assets/images/github.png" alt="github" width="60px"
+            height="60px" hspace="2"></a>
+          <a href="https://www.linkedin.com/in/gabe-perry-3168935b/" target="_blank">
+            <img src="assets/images/linkedin.png" alt="linkedin""60px" height="60px" hspace="7"></a>
+          <a href="https://stackoverflow.com/users/8858085/gabe-perry?tab=profile" target="_blank">
+            <img src="assets/images/stack.png" alt="stack" "60px" height="60px" ></a>
+        </div>
+      </div>
+    </div>
+    <!-- End of container3           -->
+    <!-- End of container1 -->
+    <!-- Footer that will be used 3x        -->
+    <footer>
+      <div class=" footer">
+        <div class="footertop">
+          <div class="footerbottom">
+            <p>@Copyright 2016 Gabe Perry</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- End of container -->
+</body>
+
+</html>
