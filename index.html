@@ -3,87 +3,91 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Basic Portfolio</title>
-  <link rel="stylesheet" type="text/css " href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css " href="assets/css/style.css">
+  <title>Basic</title>
+  <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
 <body>
-  <!-- Beginning of main Container that wraps the code. -->
-  <div id="containermain">
-    <!-- Beginning of container1 that is inside containermain and wraps entire code except
-      footer.       -->
-    <div class="container1">
-      <!-- Main navigation menu that will be reused 3 times -->
-      <div class="nav clearfix">
-        <nav>
-          <h1>Gabe Perry</h1>
-          <p><a href="index.html">About Me</a> <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a></p>
-        </nav>
-      </div>
-      <!-- Beginning of container2   -->
-      <!-- Second container still in main conatain but will be used for About me, contact
-      and Portfolio. -->
-      <div class="container2 clearfix">
-        <div class="aboutme">
-          <h1>About Me</h1>
-        </div>
-        <div class="profile">
-          <p><img src="assets/images/gabe.jpg" alt="Gabe Pic" width="200" height="200"> Cloud bread fashion axe palo santo deep v synth activated charcoal yr cardigan coloring book air plant. Salvia tousled stumptown, kombucha pop-up activated charcoal single-origin
-            coffee. Banh mi irony intelligentsia listicle. Viral tousled literally paleo hammock celiac. Cliche swag kombucha polaroid ramps.</p> <br>
-
-          <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street art 8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie lumbersexual try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
-            pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan pok pok hammock vape sriracha selfies.</p> <br>
-
-          <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street art 8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie lumbersexual try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
-            pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan pok pok hammock vape sriracha selfies.</p> <br>
-
-          <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street art 8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie lumbersexual try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
-            pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan pok pok hammock vape sriracha selfies. </p> <br>
-
-          <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street art 8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie lumbersexual try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
-            pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan pok pok hammock vape sriracha selfies.</p> <br>
-
-          <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street art 8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie lumbersexual try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
-            pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan pok pok hammock vape sriracha selfies. </p> <br>
-
-          <p> Cloud bread fashion axe palo santo deep v synth activated charcoal yr cardigan coloring book air plant. Salvia tousled stumptown, kombucha pop-up activated charcoal single-origin coffee. Banh mi irony intelligentsia listicle. Viral tousled literally
-            paleo hammock celiac. Cliche swag kombucha polaroid ramp</p>
-        </div>
-      </div>
-      <!-- End of container2 -->
-      <!-- Beginning of container3       -->
-      <!-- Third container used. Seperate of container 2 but inside of container.  Used for contact
-          icons. Icons open in Seperate pages.  Box stays the same and will be reused 3x.     -->
-      <div class="container3 clearfix">
-        <div class="connectweme">
-          <h1>Connect</h1>
-        </div>
-        <div class="connect_icons">
-          <a href="https://github.com/Gperry22" target="_blank">
-              <img src="assets/images/github.png" alt="github"></a>
-          <a href="https://www.linkedin.com/in/gabe-perry-3168935b/" target="_blank">
-              <img src="assets/images/linkedin.png" alt="linkedin"></a>
-          <a href="https://stackoverflow.com/users/8858085/gabe-perry?tab=profile" target="_blank">
-              <img src="assets/images/stack.png" alt="stack"></a>
-        </div>
-      </div>
+  <!-- Masterhead that includes container for Logo, and page links.   -->
+  <header id="masterhead">
+    <div class="container">
+      <a href="index.html" id="logo">Gabe Perry</a>
+      <nav>
+        <a href="index.html">About Me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <!-- End of container3           -->
-    <!-- End of container1 -->
-    <!-- Footer that will be used 3x        -->
-    <footer>
-      <div class=" footer">
-        <div class="footertop">
-          <div class="footerbottom">
-            <p>@Copyright 2016 Gabe Perry</p>
-          </div>
-        </div>
+  </header>
+
+  <!-- Main container that houses aboutme, and connect with me. Houses the
+container class for main media box. Will be used for Aboutme and Contact Form box.
+not for Portfolio box which needs different padding settings. -->
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+      <img src="assets/images/gabe.jpg" alt="Gabe Perry" class="gabepic">
+      <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street
+        art 8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie
+        lumbersexual try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
+        pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan
+         pok pok hammock vape sriracha selfies.</p> <br>
+
+      <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street
+        art 8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie
+        lumbersexual try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
+        pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan
+         pok pok hammock vape sriracha selfies.</p> <br>
+
+      <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street art
+        8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie lumbersexual
+        try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
+        pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan pok
+         pok hammock vape sriracha selfies. </p> <br>
+
+      <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street art
+        8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie lumbersexual
+        try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
+        pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan pok
+        pok hammock vape sriracha selfies.</p> <br>
+
+      <p> Cold-pressed fanny pack retro messenger bag biodiesel, williamsburg street art
+        8-bit crucifix try-hard freegan mixtape chillwave. Blog hashtag fixie lumbersexual
+        try-hard, kogi copper mug poke paleo yuccie tattooed selfies sustainable shoreditch
+        pour-over. Poutine quinoa taiyaki listicle retro, craft beer semiotics artisan pok
+         pok hammock vape sriracha selfies. </p> <br>
+
+      <p> Cloud bread fashion axe palo santo deep v synth activated charcoal yr cardigan
+        coloring book air plant. Salvia tousled stumptown, kombucha pop-up activated charcoal
+        single-origin coffee. Banh mi irony intelligentsia listicle. Viral tousled literally
+        paleo hammock celiac. Cliche swag kombucha polaroid ramp</p>
+    </section>
+    <!-- End of Main-Container -->
+
+
+    <!-- Sidebar section that houses sidebar icons -->
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        <a href="https://github.com/Gperry22" target="_blank">
+                  <img src="assets/images/github.png" class="connect_icons"  alt="github"></a>
+        <a href="https://www.linkedin.com/in/gabe-perry-3168935b/" target="_blank">
+                  <img src="assets/images/linkedin.png" class="connect_icons" alt="linkedin"></a>
+        <a href="https://stackoverflow.com/users/8858085/gabe-perry?tab=profile" target="_blank">
+                  <img src="assets/images/stack.png" class="connect_icons" alt="stack"></a>
       </div>
-    </footer>
+    </section>
   </div>
-  <!-- End of container -->
+  <!-- End of Sidebar Section -->
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="foot-container">
+      &copy; Copyright@Gabe Perry
+    </div>
+  </footer>
+  <!-- End of Footer Section -->
 </body>
 
 </html>
