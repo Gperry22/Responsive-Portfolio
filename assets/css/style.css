@@ -6,6 +6,17 @@
 /*Index 6 styling of HTML Main-section elements for the Contact page bars */
 
 
+<<<<<<< HEAD
+=======
+
+.visible{
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+>>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
 
 /*Index 1 styling of HTML style elements*/
 * {
@@ -69,7 +80,11 @@ h2, h3 {
   width: 100%;
   border-bottom: 2px solid #ccc;
   color: #fff;
+<<<<<<< HEAD
   margin: 0 0 0px;
+=======
+  margin: 0 0 30px;
+>>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
   z-index: 99;
 }
 
@@ -105,7 +120,10 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
 /*Index 3 styling of HTML Main-section elements that include
 Aboutme, Connect With Me */
 #main-container {
@@ -116,7 +134,11 @@ Aboutme, Connect With Me */
   background: #fff;
   width: 100%;
   max-width: 650px;
+<<<<<<< HEAD
   max-height: 750px;
+=======
+  max-height: 600px;
+>>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
   border: 1px solid #ddd;
   margin: 0 0 40px 0;
   padding: 30px;
@@ -125,9 +147,14 @@ Aboutme, Connect With Me */
 }
 
 .gabepic {
+<<<<<<< HEAD
   width: 100%;
   height: auto;
   max-width: 300px;
+=======
+  width: 200px;
+  height: 200px;
+>>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
   float: left;
   margin-left: : 20px;
 }
@@ -178,7 +205,11 @@ Portfolio styles */
   background: #fff;
   width: 100%;
   max-width: 650px;
+<<<<<<< HEAD
   max-height: 780px;
+=======
+  max-height: 600px;
+>>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
   border: 1px solid #ddd;
   padding: 30px;
   float: left;
@@ -212,6 +243,7 @@ figcaption {
 /*Index 6 styling of HTML Main-section elements for the Contact page bars */
 #contact_form li {
   margin-bottom: 10px;
+<<<<<<< HEAD
 }
 
 input[type=text], input[type=email], textarea {
@@ -477,4 +509,168 @@ nav a:last-child {
   padding-left: 50px;
 }
 
+=======
+}
+
+input[type=text], input[type=email], textarea {
+  display: block;
+  width: 100%;
+  height: 25px;
+  padding-left: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  background: #4aaaa5;
+  border: 0 none;
+  border-radius: 75px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px) {
+
+  .container {
+    width: 760px;
+    max-width: 700px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .main-section {
+    background: #fff;
+    width: 700px;
+    max-width: 700px;
+    max-height: 600px;
+    border: 1px solid #ddd;
+    margin: 0 0 10px 0;
+    padding: 30px;
+
+    overflow: auto;
+  }
+  .sidebar {
+    background: #fff;
+    width: 700px;
+    max-width: 700px;
+    border: 1px solid #ddd;
+    padding: 30px;
+    float: left;
+  }
+
+  .main-section2 {
+    background: #fff;
+    width: 700px;
+    max-width: 700px;
+    max-height: 600px;
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+    .container {
+      width: 640px;
+      max-width: 600px;
+      margin: 0 auto;
+      clear: both;
+    }
+
+    .main-section {
+      background: #fff;
+      width: 600px;
+      max-width: 600px;
+      max-height: 600px;
+      border: 1px solid #ddd;
+      margin: 0 0 10px 0;
+      padding: 30px;
+
+      overflow: auto;
+    }
+    .sidebar {
+      background: #fff;
+      width: 600;
+      max-width: 600px;
+      border: 1px solid #ddd;
+      padding: 30px;
+      margin-bottom: 100px;
+    }
+
+    .main-section2 {
+      background: #fff;
+      width: 100%;
+      max-width: 600px;
+      max-height: 600px;
+      border: 1px solid #ddd;
+      padding: 30px;
+      margin-bottom: 40px;
+      overflow: auto;
+}
+
+
+    .main-section2 img {
+      height: auto;
+      width: 100%;
+}
+
+    figure {
+      position: relative;
+      text-align: center;
+      width: 100%;
+      margin: 10px;
+    }
+
+    figcaption {
+      background-color: teal;
+      color: #ffffff;
+      height: 60px;
+      width: 100%;
+      text-align: center;
+      padding-top: 15px;
+      font-size: 24px;
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+    }
+    footer {
+      height: 70px;
+      width: 100%;
+    }
+
+    .foot-container {
+      background: #666;
+      border-top: 8px solid #4aaaa5;
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      padding: 15px 0;
+    }
+
+    .sidebar {
+      background: #fff;
+      width: 600;
+      max-width: 600px;
+      border: 1px solid #ddd;
+      padding: 30px;
+      margin-bottom: 2000px;
+    }
+>>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
 }
