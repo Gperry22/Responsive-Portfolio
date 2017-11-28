@@ -5,10 +5,6 @@
 /*Index 5 styling of HTML Main-section2 elements that include Portfolio styles */
 /*Index 6 styling of HTML Main-section elements for the Contact page bars */
 
-
-<<<<<<< HEAD
-=======
-
 .visible{
   visibility: visible;
 }
@@ -16,7 +12,6 @@
 .hidden {
   visibility: hidden;
 }
->>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
 
 /*Index 1 styling of HTML style elements*/
 * {
@@ -31,7 +26,7 @@
 }
 
 body {
-  background-image: url("../../assets/images/symphony.png");
+  background-image: url("../../assets/images/greywall.png");
   background-repeat: repeat;
   background-attachment: scroll;
   color: #777;
@@ -75,16 +70,13 @@ h2, h3 {
 }
 
 #masterhead {
-  background: #fff;
+  background-image: url("../../assets/images/gray_jean.png");
   height: 70px;
   width: 100%;
   border-bottom: 2px solid #ccc;
   color: #fff;
-<<<<<<< HEAD
   margin: 0 0 0px;
-=======
   margin: 0 0 30px;
->>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
   z-index: 99;
 }
 
@@ -120,10 +112,7 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
 /*Index 3 styling of HTML Main-section elements that include
 Aboutme, Connect With Me */
 #main-container {
@@ -131,38 +120,29 @@ Aboutme, Connect With Me */
 }
 
 .main-section {
-  background: #fff;
+  background-image: url("../../assets/images/gray_jean.png");
   width: 100%;
   max-width: 650px;
-<<<<<<< HEAD
-  max-height: 750px;
-=======
-  max-height: 600px;
->>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
+  height: 100%;
   border: 1px solid #ddd;
-  margin: 0 0 40px 0;
+  margin: 0 0 100px 0;
   padding: 30px;
   float: left;
-  overflow: auto;
 }
 
 .gabepic {
-<<<<<<< HEAD
-  width: 100%;
   height: auto;
   max-width: 300px;
-=======
-  width: 200px;
-  height: 200px;
->>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
+  width: 100%;
   float: left;
-  margin-left: : 20px;
+  margin-left: 20px;
 }
 
 .sidebar {
-  background: #fff;
+  background-image: url("../../assets/images/gray_jean.png");
   width: 100%;
   max-width: 270px;
+  height: auto;
   border: 1px solid #ddd;
   padding: 30px;
   float: right;
@@ -185,7 +165,7 @@ Aboutme, Connect With Me */
 footer {
   height: 70px;
   width: 100%;
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0;
   float: left;
 }
@@ -202,16 +182,13 @@ footer {
 /*Index 5 styling of HTML Main-section2 elements that include
 Portfolio styles */
 .main-section2 {
-  background: #fff;
+  background-image: url("../../assets/images/gray_jean.png");
   width: 100%;
   max-width: 650px;
-<<<<<<< HEAD
-  max-height: 780px;
-=======
-  max-height: 600px;
->>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
+  height: auto;
   border: 1px solid #ddd;
   padding: 30px;
+  margin: 0 0 100px 0;
   float: left;
   overflow: auto;
 }
@@ -224,7 +201,7 @@ Portfolio styles */
 figure {
   position: relative;
   float: left;
-  margin: 10px;
+  margin-left: 20px;
 }
 
 figcaption {
@@ -243,7 +220,6 @@ figcaption {
 /*Index 6 styling of HTML Main-section elements for the Contact page bars */
 #contact_form li {
   margin-bottom: 10px;
-<<<<<<< HEAD
 }
 
 input[type=text], input[type=email], textarea {
@@ -273,13 +249,15 @@ input[type=submit] {
 }
 
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
 
-}
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 992px) and (min-width : 770px) {
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
   .container {
     width: 100%;
@@ -289,19 +267,17 @@ input[type=submit] {
   }
 
   .main-section {
-    background: #fff;
+    background-image: url("../../assets/images/gray_jean.png");
     width: 100%;
     max-width: 520px;
-    max-height: 850px;
     border: 1px solid #ddd;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
     padding: 30px;
     float: left;
-    overflow: auto;
   }
 
   .sidebar {
-    background: #fff;
+    background-image: url("../../assets/images/gray_jean.png");
     width: 100%;
     max-width: 270px;
     border: 1px solid #ddd;
@@ -318,80 +294,94 @@ input[type=submit] {
   }
 
   .main-section2 {
-    background: #fff;
+    background-image: url("../../assets/images/gray_jean.png");
     width: 100%;
     max-width: 520px;
-    max-height: 850px;
     border: 1px solid #ddd;
-    padding: 20px 60px 10px 40px;
-    float: left;
-    overflow: auto;
+    padding: 20px;
   }
 
   .main-section2 img {
     height: auto;
     width: 100%;
-    max-width: 500px;
   }
+
+  figure {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+}
+
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 768px) and (min-width : 641px)  {
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
   .container {
     width: 100%;
-    max-width: 750px;
+    max-width: 760px;
     margin: 0 auto;
     clear: both;
   }
 
   .main-section {
-    background: #fff;
+    background-image: url("../../assets/images/gray_jean.png");
     width: 100%;
     max-width: 730px;
-    height: auto;
     border: 1px solid #ddd;
-    margin: 0 10px 20px 10px;
+    margin: 0 0px 20px 15px;
     padding: 30px;
     float: left;
-    overflow: auto;
   }
 
   .gabepic {
     width: 100%;
-    height: 400;
+    height: 400px;
     max-width: 400px;
     margin: 0px 20px 20px 0px;
   }
 
   .sidebar {
-    background: #fff;
+    background-image: url("../../assets/images/gray_jean.png");
     width: 100%;
     max-width: 730px;
     border: 1px solid #ddd;
     padding: 30px;
-    margin: 0 10px 200px 10px;
+    margin: 0 0 100px 15px;
     float: left;
   }
 
   .main-section2 {
-    background: #fff;
+    background-image: url("../../assets/images/gray_jean.png");
     width: 100%;
     max-width: 730px;
-    max-height: 850px;
     border: 1px solid #ddd;
-    margin: 0 10px 20px 10px;
-    /*padding: 20px 60px 10px 40px;*/
+    margin: 0 0 20px 15px;
     float: left;
-    overflow: auto;
   }
 
   .main-section2 img {
-    height: 200px;
+    height: 220px;
     width: 100%;
-    max-width: 290px;
+  }
+
+  figure {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
 }
+
 
 
 /* Small Devices, Tablets */
@@ -411,15 +401,13 @@ input[type=submit] {
   }
 
   .main-section {
-    background: #fff;
+    background-image: url("../../assets/images/gray_jean.png");
     width: 100%;
     max-width: 600px;
-    height: auto;
     border: 1px solid #ddd;
-    margin: 30px 10px 40px 10px;
+    margin: 30px 10px 20px 20px;
     padding: 30px;
     float: left;
-    overflow: auto;
   }
 
   .gabepic {
@@ -430,38 +418,33 @@ input[type=submit] {
   }
 
   .sidebar {
-    background: #fff;
+    background-image: url("../../assets/images/gray_jean.png");
     width: 100%;
     max-width: 600px;
     border: 1px solid #ddd;
     padding: 30px;
-    margin: 0 10px 200px 10px;
+    margin: 0 10px 80px 20px;
     float: left;
-
   }
 
   .main-section2 {
-    background: #fff;
+    background-image: url("../../assets/images/gray_jean.png");
     width: 100%;
     max-width: 600px;
-    max-height: 850px;
     border: 1px solid #ddd;
-    margin: 0 10px 20px 10px;
-    padding: 10px;
-    overflow: auto;
+    margin: 30px 10px 20px 20px;
   }
 
   .main-section2 img {
     height: auto;
     width: 100%;
-    max-width: 550px;
-  }
-  figure {
-    position: relative;
-    float: left;
-    margin: 10px 0 0 40px;
   }
 
+  figure {
+    position: relative;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
 
   #logo {
     width: 640px;
@@ -474,13 +457,11 @@ input[type=submit] {
     font-weight: 700;
     font-size: 30px;
     text-decoration: none;
-
-
   }
 
 nav {
   border-bottom: 2px solid #ccc;
-  background: #fff;
+  background-image: url("../../assets/images/gray_jean.png");
   width: 640px;
   float: left;
 }
@@ -509,9 +490,6 @@ nav a:last-child {
   padding-left: 50px;
 }
 
-=======
-}
-
 input[type=text], input[type=email], textarea {
   display: block;
   width: 100%;
@@ -537,140 +515,4 @@ input[type=submit] {
   margin-top: 10px;
   cursor: pointer;
 }
-
-@media screen and (max-width: 980px) {
-
-}
-@media screen and (max-width: 768px) {
-
-  .container {
-    width: 760px;
-    max-width: 700px;
-    margin: 0 auto;
-    clear: both;
-  }
-
-  .main-section {
-    background: #fff;
-    width: 700px;
-    max-width: 700px;
-    max-height: 600px;
-    border: 1px solid #ddd;
-    margin: 0 0 10px 0;
-    padding: 30px;
-
-    overflow: auto;
-  }
-  .sidebar {
-    background: #fff;
-    width: 700px;
-    max-width: 700px;
-    border: 1px solid #ddd;
-    padding: 30px;
-    float: left;
-  }
-
-  .main-section2 {
-    background: #fff;
-    width: 700px;
-    max-width: 700px;
-    max-height: 600px;
-    border: 1px solid #ddd;
-    padding: 30px;
-    margin-bottom: 20px;
-    overflow: auto;
-}
-
-
-
-
-
-@media screen and (max-width: 640px) {
-
-    .container {
-      width: 640px;
-      max-width: 600px;
-      margin: 0 auto;
-      clear: both;
-    }
-
-    .main-section {
-      background: #fff;
-      width: 600px;
-      max-width: 600px;
-      max-height: 600px;
-      border: 1px solid #ddd;
-      margin: 0 0 10px 0;
-      padding: 30px;
-
-      overflow: auto;
-    }
-    .sidebar {
-      background: #fff;
-      width: 600;
-      max-width: 600px;
-      border: 1px solid #ddd;
-      padding: 30px;
-      margin-bottom: 100px;
-    }
-
-    .main-section2 {
-      background: #fff;
-      width: 100%;
-      max-width: 600px;
-      max-height: 600px;
-      border: 1px solid #ddd;
-      padding: 30px;
-      margin-bottom: 40px;
-      overflow: auto;
-}
-
-
-    .main-section2 img {
-      height: auto;
-      width: 100%;
-}
-
-    figure {
-      position: relative;
-      text-align: center;
-      width: 100%;
-      margin: 10px;
-    }
-
-    figcaption {
-      background-color: teal;
-      color: #ffffff;
-      height: 60px;
-      width: 100%;
-      text-align: center;
-      padding-top: 15px;
-      font-size: 24px;
-      position: absolute;
-      bottom: 20px;
-      left: 0;
-    }
-    footer {
-      height: 70px;
-      width: 100%;
-    }
-
-    .foot-container {
-      background: #666;
-      border-top: 8px solid #4aaaa5;
-      color: #fff;
-      text-align: center;
-      font-size: 16px;
-      padding: 15px 0;
-    }
-
-    .sidebar {
-      background: #fff;
-      width: 600;
-      max-width: 600px;
-      border: 1px solid #ddd;
-      padding: 30px;
-      margin-bottom: 2000px;
-    }
->>>>>>> 6049dab90d8c506c63de6da1f86b4eeb8f3134c3
 }
