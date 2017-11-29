@@ -1,10 +1,15 @@
-/*Index 1 styling of HTML style elements*/
+/*Index 1 styling of HTML page style elements*/
 /*Index 2 styling of HTML Masterhead, Nav, and Logo elements*/
 /*Index 3 styling of HTML Main-Container elements that include Aboutme, Connect With Me, and the Contact page bars */
 /*Index 4 styling of HTML Footer styles */
 /*Index 5 styling of HTML Main-section2 elements that include Portfolio styles */
-/*Index 6 styling of HTML Main-section elements for the Contact page bars */
+/*Index 6 styling of HTML Main-section elements for the Contact page */
+/*Index 7: media screen queries for screens 770px-990px */
+/*Index 8: media screen queries for screens 641px-768px */
+/*Index 9: media screen queries for screens 0px-641px */
 
+
+/*Index 1 styling of HTML page style elements*/
 .visible{
   visibility: visible;
 }
@@ -13,7 +18,6 @@
   visibility: hidden;
 }
 
-/*Index 1 styling of HTML style elements*/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -217,7 +221,7 @@ figcaption {
   left: 0;
 }
 
-/*Index 6 styling of HTML Main-section elements for the Contact page bars */
+/*Index 6 styling of HTML Main-section elements for the Contact page */
 #contact_form li {
   margin-bottom: 10px;
 }
@@ -250,7 +254,7 @@ input[type=submit] {
 
 
 
-
+/*Index 7: media screen queries for screens 770px-990px */
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) and (min-width : 770px) {
   * {
@@ -315,7 +319,7 @@ input[type=submit] {
 }
 
 
-
+/*Index 8: media screen queries for screens 641px-768px */
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) and (min-width : 641px)  {
   * {
@@ -383,7 +387,7 @@ input[type=submit] {
 }
 
 
-
+/*Index 9: media screen queries for screens 0px-641px */
 /* Small Devices, Tablets */
 @media only screen and (max-width : 640px) {
 
